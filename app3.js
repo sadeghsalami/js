@@ -121,3 +121,9 @@ let i = 0;
 // for (const element of numbers) {
 //     console.log(element);
 // }
+
+
+for (const element of numbers) {
+       console.log(element);
+   }
+  
