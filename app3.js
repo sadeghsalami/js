@@ -123,7 +123,17 @@ let i = 0;
 // }
 
 
-for (const element of numbers) {
-       console.log(element);
-   }
+// for (const element of student) {
+//        console.log(student);
+//    }
   
+  //  for (const index in student) {
+  //      console.log(student[index]);
+  //    }
+
+    //  student.forEach((student) => {
+    //      console.log(student);
+    //    });
+    numbers.map((number) => {
+         console.log(number);
+       });
