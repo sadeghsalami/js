@@ -31,3 +31,77 @@ input.error{
 input.success{
     border-color: green;
 }
+.dota{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.light{
+    background-color: rgb(141, 74, 122);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    font-style:normal;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.dota .e_d{
+    width: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 38px;
+    border-color: rgb(129, 255, 3);
+}
+.light .e_d button{
+    padding: 6px;
+    width: 60px;
+    border-radius: 30px;
+
+}
+.light .e_d button:active{
+    background-color: black;
+    color: aliceblue;
+    
+}
+.btn_save{
+    background-color: burlywood;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 5px;
+}
+.btn_next{
+    background-color: burlywood;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 5px;
+}
+.np{
+    background-color: rgb(225, 247, 155);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+.sn{
+    background-color: rgb(225, 247, 155);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: start;
+    flex-direction: row;
+    gap: 10px;
+}

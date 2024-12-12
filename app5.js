@@ -2,6 +2,7 @@
 
 let form = document.querySelector("form"),
   usernameInput = document.querySelector(".username"),
+  // passwordInput = document.querySelector(".password"),
   btnSave = document.querySelector(".btn_save"),
   btnNext = document.querySelector(".btn_next"),
   result = document.querySelector(".result")
@@ -40,18 +41,28 @@ function eventListernes(){
     usernameInput.addEventListener('blur', validateInputs)
 }
 
+// function eventListernes(){
+//     form.addEventListener('' , getpass)
+//     passwordInput.addEventListener('blur', validateInputs)
+// }
+
+
 function getNote(e) {
   e.preventDefault();
   let valueUsername = usernameInput.value
   if( valueUsername !== ''){
     let parag = `
-    <div class=''>
-        <div><span>Username: ${valueUsername}</span></div>
-        <div>
-            <button>Edit</button>
-            <button>Delete</button>
+    <div class="dota">
+       <div class='light'>
+           <div><span>Username: ${valueUsername}</span></div>
+           <div><span>password:</span></div>
+       <div class="e_d">
+            <button class="edit">Edit</button>
+            <button class="delet">Delete</button>
         </div>
     </div>
+    </div>
+    
     `
     result.innerHTML += parag
     // usernameInput.value = ''
