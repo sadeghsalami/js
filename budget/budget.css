@@ -1,0 +1,23 @@
+label{
+    color: brown;
+}
+.numbers{
+    border-radius: 4px;
+    border: 2px solid #5e1616;
+    padding: 5px;
+    margin: 4px;
+}
+.submit{
+    border-radius: 4px;
+    border: 2px solid #5e1616;
+    padding: 5px;
+    margin: 4px;
+}
+.submit:active{
+    background-color: black;
+    color: #fff;
+}
+.tob{
+    color: #5e1616;
+    margin-top: 20px;
+}
