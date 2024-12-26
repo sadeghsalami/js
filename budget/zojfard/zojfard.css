@@ -1,0 +1,18 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.enter{
+    background-color: rgb(169, 92, 240);
+    color: aliceblue;
+    border-radius: 8px;
+}
+.submit{
+    border-radius: 5px 15px 5px 15px;
+}
+.submit:active{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
