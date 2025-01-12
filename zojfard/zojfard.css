@@ -1,0 +1,39 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.frm_get_adad{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px;
+}
+.frm_get_adad .sub{
+    background-color: azure;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.frm_get_adad .sub:active{
+    background-color: rgb(9, 11, 11);
+    color: rgb(246, 196, 196);
+    border-radius: 15px;
+    border: none;
+}
+.list_num{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    background-color: rgb(203, 236, 60);
+    padding: 10px;
+    margin: 10px;
+}
+.list_num li{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.frm_get_adad li span:first-child{
+    color: aqua;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="total_left_bdg">
+      <h3>Total: <span class="total_val_bdg"></span> $</h3>
+      <h3>Left: <span class="left_val_bdg"></span> $</h3>
+      <span class="msg"></span>
+    </div>
+    <form class="frm_get_exp">
+      <div>
+        <label for="desc">Description: </label>
+        <input type="text" id="desc" />
+      </div>
+      <div>
+        <label for="val">Value: </label>
+        <input type="number" id="val" />
+      </div>
+      <input type="submit" value="Save" class="btnSaveExp" />
+    </form>
+    <ul class="list_exp"></ul>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

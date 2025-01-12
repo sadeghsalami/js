@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.total_left_bdg{
+    background-color: #7d7d7d;
+    padding: 15px;
+}
+
+.frm_get_exp{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.frm_get_exp div{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.frm_get_exp > input{
+    width: 80%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #0057f8;
+    color: #fff;
+    cursor: pointer;
+}
+.frm_get_exp > input:disabled{
+    background-color: #7d7d7d;
+    cursor: not-allowed;
+}
+.list_exp {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    margin: 15px;
+}
+.list_exp li{
+    padding: 15px;
+    background-color: rgb(61, 60, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.list_exp li span:first-child{
+    color: #5188ee;
+}
+
+.msg.error{
+    background-color: #fbacac;
+    color: red;
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.msg.warning{
+    background-color: #fbf7ac;
+    color: rgb(255, 111, 0);
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
