@@ -8,6 +8,10 @@ input{
     border: 2px groove #fff;
     border-radius: 5px 8px 5px 8px;
     cursor: pointer;
+    margin-left: 10px;
+}
+.age{
+    margin-left: 50px;
 }
 .register{
     background-color: #fff;
@@ -19,12 +23,17 @@ input{
     color: #fff;
     font-weight: 600;
 }
-.tables{
+.table1{
     background-color: #ce82cf;
     display: flex;
     align-items: first baseline;
 }
-table{
+.table2{
+    background-color: #805df0;
+    display: flex;
+    align-items: first baseline;
+}
+.table{
     margin: 10px auto;
 }
 th{
@@ -33,7 +42,7 @@ th{
 th,td{
     border: 1px solid #000;
     padding: 10px;
-    width: 80px;
+    width: 100px;
 }
 tr:active{
     background-color: #f059f3;
