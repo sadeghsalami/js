@@ -48,3 +48,10 @@ tr:active{
     background-color: #f059f3;
     /* scale: 1.1; */
 }
+.msg{
+    background-color: #fbacac;
+    color: red;
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
