@@ -1,5 +1,5 @@
-let f_name = document.querySelector('.f_name')
-let l_name = document.querySelector('.l_name')
+let f_name = document.querySelector('.f_name #f_nam')
+let l_name = document.querySelector('.l_name #l_nam')
 let age = document.querySelector('.age')
 let register = document.querySelector('.register')
 let frm = document.querySelector('.frm_age')
@@ -20,6 +20,7 @@ function getNames(e){
     let inputAge = age.value;
     if (inputAge < 18){
         msg.textContent = "under 18";
+        let form = frm.value;
         let tableNum
         let table1 = `
             <tr>
@@ -28,7 +29,7 @@ function getNames(e){
                 <td class ='table1 tr_inputAge'>  ${tableNum} </td>
             </tr>
         `
-        tableNum.innerHTML += table1
+        form.innerHTML += table1
 
 
     }
