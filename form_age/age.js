@@ -8,6 +8,9 @@ let table2 = document.querySelector('.table2')
 let tableNum = document.querySelector('.tableNum')
 let msg = document.querySelector('.msg')
 
+let tab = document.createElement('table')
+        console.log(tab);
+
 
 eventListeners();
 function eventListeners(){
@@ -22,6 +25,7 @@ function getNames(e){
         msg.textContent = "under 18";
         let form = frm.value;
         let tableNum
+        
         let table1 = `
             <tr>
                 <td class ='table1 tr_inputAge'>  ${tableNum} </td>
