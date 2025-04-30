@@ -37,7 +37,7 @@ function getNames(e){
         
         let table1 = `
             <tr>
-                <td class ='table1 tr_inputAge'>  ${ages} </td>
+                <span> <td class ='table1 tr_inputAge'>  ${ages} </td> </span>
                 <td class ='table1 tr_inputL_name'>  ${l_names} </td>
                 <td class ='table1 tr_inputF_name'>  ${f_names} </td>
             </tr>
