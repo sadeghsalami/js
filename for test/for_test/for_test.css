@@ -32,4 +32,11 @@ progress{
     background-color:#a9d180;
     padding: 15px;
     border-radius:5px;
+    font-size: larger;
+    font-weight: bold;
+}
+.even , .odd{
+    padding: 15px;
+    background-color: rgb(240, 165, 112);
+    border-radius: 10px;
 }

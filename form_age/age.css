@@ -25,13 +25,9 @@ input{
 }
 .table1{
     background-color: #ce82cf;
-    display: flex;
-    align-items: first baseline;
 }
 .table2{
     background-color: #805df0;
-    display: flex;
-    align-items: first baseline;
 }
 .table{
     margin: 10px auto;

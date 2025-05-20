@@ -1,84 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="age.css">
-</head>
-<body>
-    <form class="frm_age" >
-        <label for="f_nam">First name : </label>
-        <input class="f_name" type="text" id="f_nam">
-        <label for="l_nam">Last name :</label>
-        <input class="l_name" type="text" id="l_nam">
-        <label for="age">Age :</label>
-        <input class="age" type="number" id="age">
-        <input class="register" type="submit" value="save" > 
+    <link rel="stylesheet" href="age.css" />
+  </head>
+  <body>
+    <form class="frm_age">
+      <label for="f_nam">First name : </label>
+      <input class="f_name" type="text" id="f_nam" />
+      <label for="l_nam">Last name :</label>
+      <input class="l_name" type="text" id="l_nam" />
+      <label for="age">Age :</label>
+      <input class="age" type="number" id="age" />
+      <input class="register" type="submit" value="save" />
     </form>
     <span class="msg"></span>
     <p></p>
 
-    <div class="table1">
-        <table>
-            <thead>
-                <th>age < 18</th>
-                <th>family</th>
-                <th>name</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>a</td>
-                    <td>b</td>
-                    <td>c</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
-    <div class="table2">
-        <table>
-            <thead>
-                <th>age >= 18</th>
-                <th>family</th>
-                <th>name</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="tbl_teen">
+      <table>
+        <thead>
+          <th>name</th>
+          <th>family</th>
+          <th>age < 18</th>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
 
-
-
-
-
-
+    <div class="tbl_adult">
+      <table>
+        <thead>
+          <th>age >= 18</th>
+          <th>family</th>
+          <th>name</th>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
 
     <script src="age.js"></script>
-</body>
+  </body>
 </html>
