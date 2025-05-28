@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 10px 15px;
+    padding: 10px 10px;
+    background-color: darkgray;
+}
+input{
+    border: 2px groove #fff;
+    border-radius: 5px 8px 5px 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.msg{
+    background-color: #fbacac;
+    color: red;
+    padding: 5px 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
